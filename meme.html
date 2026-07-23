@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Meme Example</title>
+  <style>
+    .meme-container {
+      position:absolute;
+      width: 500px;
+      margin: auto;
+      font-family: Impact, Arial, sans-serif;
+      color: rgb(110, 203, 215);
+      text-align: center;
+    }
+
+    .meme-container img {
+      width: 100%;
+      display: block;
+    }
+
+    .meme-text {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      font-size: 28px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 5px rgb(51, 41, 41);
+    }
+
+    .top-text {
+      top: 0px;
+    }
+
+    .bottom-text {
+      bottom:0px;
+    }
+  </style>
+</head>
+<body>
+  <div class="meme-container">
+      <div class="meme-text top-text">WHEN YOU CODE ALL NIGHT</div>
+      <div class="meme-text bottom-text">AND IT FINALLY WORKS</div><br>
+      <img src="https://static01.nyt.com/images/2020/01/28/multimedia/28xp-memekid3/28cp-memekid3-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="Meme Image">
+  </div>
+</body>
+</html>
